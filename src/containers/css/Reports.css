@@ -1,0 +1,151 @@
+
+.fade-enter div {
+    opacity: 0;
+  overflow-y: hidden;
+  max-height: 50px;
+}
+
+.fade-leave div {
+    opacity: 0;
+  overflow-y: hidden;
+  max-height: 50px;
+}
+
+.fade-leave-active div {
+    opacity: 1;
+  max-height: 50px;
+  transition: all 900ms ease-in;
+}
+
+.fade-enter-active div {
+    opacity: 1;
+  max-height: 50px;
+  transition: all 900ms ease-in;
+}
+.fade-exit div {
+  max-height: 50px;
+}
+.fade-exit-active div {
+  max-height: 0;
+  opacity: 0;
+  overflow-y: hidden;
+  transition: all 900ms ease-in;
+}
+
+.fade-enter  {
+    opacity: 0;
+  overflow-y: hidden;
+  max-height: 50px;
+}
+
+.fade-leave  {
+    opacity: 0;
+  overflow-y: hidden;
+  max-height: 50px;
+}
+
+.fade-leave-active  {
+    opacity: 1;
+  max-height: 50px;
+  transition: all 900ms ease-in;
+}
+
+.fade-enter-active  {
+    opacity: 1;
+  max-height: 50px;
+  transition: all 900ms ease-in;
+}
+.fade-exit  {
+  max-height: 50px;
+}
+.fade-exit-active  {
+  max-height: 0;
+  opacity: 0;
+  overflow-y: hidden;
+  transition: all 900ms ease-in;
+}
+
+.progress-items .col{
+    display:inline-block;
+    width:13%;
+    font-size:10pt !important;
+    height:12px;
+}
+
+.reports td, .table th{
+    padding:.55rem
+}
+
+.reports th{
+  font-size:10pt;
+}
+
+.six-per{
+  width: 6% !important;
+}
+
+.eight-per{
+  width: 8% !important;
+}
+
+.ten-per{
+  width: 10% !important;
+}
+
+.fifteen-per{
+  width: 15% !important;
+}
+
+.reports th:first-child{
+  width:25% !important;
+}
+
+.order-header{
+  background:#999;
+  color:#fff;
+  cursor:pointer;
+}
+
+.progress-label{
+  font-size:9pt !important;
+}
+
+.order-header-selected{
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.order-desc::after{
+  font-family:FontAwesome;
+  width:25px;
+  margin-left:5px;
+  content:"\f107";
+}
+
+.order-asc::after{
+  font-family:FontAwesome;
+  width:25px;
+  margin-left:5px;
+  content:"\f106";
+}
+.dropdown-menu.show{
+  z-index:10000;
+}
+
+.refresh-button{
+  margin-top:5px;
+  margin-left:5px;
+  margin-right:5px;
+  height:33.5px;
+}
+
+
+.hotdeals-button{
+  margin-top:5px;
+  margin-left:5px;
+  height:33.5px;
+}
+
+.pagination{
+  margin-top:20px;
+}
